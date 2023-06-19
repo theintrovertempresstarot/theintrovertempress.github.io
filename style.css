@@ -243,3 +243,7 @@ input[type="checkbox"]:checked ~ .menu {
     background-color: #e5b734;
   }
 }
+
+.serviceshead {
+  font-size: 70px;
+}
