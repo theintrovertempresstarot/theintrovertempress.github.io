@@ -1,0 +1,245 @@
+/* General Styling */
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f1c40f;
+}
+
+header {
+  background-color: #f1c40f;
+  padding: 20px;``
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 30px; /* Adjust the spacing between navigation items */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+}
+
+/* Page-Specific Styling */
+#home {
+  text-align: center;
+}
+
+#services ul {
+  text-align: center;
+  padding-left: 0; /* Remove the left padding for the services list */
+}
+
+#about {
+  text-align: center;
+}
+
+h1,h2 {
+  font-family: 'MedievalSharp', cursive;
+}
+
+p {
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+}
+
+nav {
+  font-family: 'MedievalSharp', cursive;
+  font-size: 30px;
+}
+
+ul {
+  font-family: 'MedievalSharp', cursive;
+  font-size: 30px;
+  list-style-type: none;
+  padding-left: 0; /* Remove the left padding for all unordered lists */
+}
+
+h2 {
+  font-size: 60px;
+}
+
+
+ol {
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0; /* Remove the left padding for the ordered list */
+    margin-left: 0; /* Remove the left margin for the ordered list */
+}
+
+ol li {
+    padding: 2px;
+    font-family: 'PT Serif', serif;
+}
+
+.avatar {
+    width: auto;
+    height: auto;
+}
+
+.intro {
+    font-size: 50px;
+}
+
+.servicesstuff {
+    font-size: 70px;
+}
+
+.servicelist li {
+    font-size: 40px;
+}
+
+.contacthead {
+    font-size: 50px; /* Adjust the font size using viewport width (vw) unit */
+    margin-bottom: 20px; /* Add some spacing at the bottom */
+}
+
+.contactlist {
+    font-size: 6vw; /* Adjust the font size using viewport width (vw) unit */
+    margin-bottom: 20px; /* Add some spacing at the bottom */
+    display: flex;
+            align-items: center;
+}
+
+.contactlist img {
+            margin-left: 10px;
+        }
+
+
+nav ul li {
+    margin: 0 30px; /* Adjust the spacing between navigation items */
+}
+
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  background-color: #2c3e50; /* Updated color */
+  height: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-icon span:nth-child(2) {
+  width: 75%;
+}
+
+.menu-icon span:nth-child(3) {
+  width: 50%;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  background-color: #fab1a0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  padding: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #000; /* Updated color */
+  transition: color 0.3s ease-in-out;
+}
+
+.menu ul li a:hover {
+  color: #888; /* Updated color */
+}
+
+.menu ul li a.active {
+  color: #888; /* Updated color */
+}
+
+/* Hamburger Menu Styles */
+input[type="checkbox"] {
+  display: none;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+input[type="checkbox"]:checked ~ .menu {
+  display: block;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 767px) {
+  .navbar {
+    position: relative;
+  }
+
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    padding: 5px;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #2c3e50;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .menu ul li:hover {
+    background-color: #e5b734;
+  }
+}

@@ -1,0 +1,14 @@
+<section id="services">
+    <h2 class="contacthead">Contact</h2>
+    <ol class="contactlist">
+      <li>
+          <span class="whatsup">Whatsapp</span>
+          <img class="whatsapp" src='https://i.postimg.cc/9M5R1W4V/Whats-App-svg.png' border='0' alt='Whats-App-svg'/>
+          <br>
+          +91 7054034673
+      </li>
+
+
+
+    </ol>
+</section>
