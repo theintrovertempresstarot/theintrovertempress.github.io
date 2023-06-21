@@ -116,15 +116,21 @@ ol li {
 }
 
 .contacthead {
-    font-size: 50px; /* Adjust the font size using viewport width (vw) unit */
+    font-size: 85px; /* Adjust the font size using viewport width (vw) unit */
     margin-bottom: 20px; /* Add some spacing at the bottom */
 }
 
 .contactlist {
-    font-size: 6vw; /* Adjust the font size using viewport width (vw) unit */
+    font-size: 100px;
+
+    px; /* Adjust the font size using viewport width (vw) unit */
     margin-bottom: 20px; /* Add some spacing at the bottom */
     display: flex;
             align-items: center;
+}
+
+.contactlisthead {
+  font-size: 80px;
 }
 
 .contactlist img {
