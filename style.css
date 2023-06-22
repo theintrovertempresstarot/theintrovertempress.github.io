@@ -99,7 +99,7 @@ ol li {
 }
 
 .avatar {
-    width: 1000px;;
+    width: 900px;
     height: auto;
 }
 
@@ -257,4 +257,11 @@ input[type="checkbox"]:checked ~ .menu {
 
 .navul {
   margin-top: 70px;
+}
+
+.menu-iconindex {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
 }
