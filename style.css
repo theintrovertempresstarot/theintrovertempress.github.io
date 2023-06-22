@@ -63,7 +63,7 @@ h1,h2 {
 
 p {
   font-family: 'PT Serif', serif;
-  font-size: 30px;
+  font-size: 55px;
 }
 
 nav {
@@ -264,4 +264,9 @@ input[type="checkbox"]:checked ~ .menu {
   top: 20px;
   left: 20px;
   z-index: 1;
+}
+
+.aboutheading {
+  font-weight: bolder;
+  font-size: 90px;
 }
