@@ -21,7 +21,6 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -99,12 +98,12 @@ ol li {
 }
 
 .avatar {
-    width: auto;
+    width: 1000px;;
     height: auto;
 }
 
 .intro {
-    font-size: 75px;
+    font-size: 95px;
 }
 
 .servicesstuff {
@@ -116,7 +115,7 @@ ol li {
 }
 
 .contacthead {
-    font-size: 85px; /* Adjust the font size using viewport width (vw) unit */
+    font-size: 125px; /* Adjust the font size using viewport width (vw) unit */
     margin-bottom: 20px; /* Add some spacing at the bottom */
 }
 
@@ -172,7 +171,6 @@ nav ul li {
   top: 60px;
   left: 20px;
   background-color: #fab1a0;
-  padding: 20px;
   border-radius: 60px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   font-size: 40px;
@@ -244,4 +242,12 @@ input[type="checkbox"]:checked ~ .menu {
 
 .serviceshead {
   font-size: 150px;
+}
+
+.email {
+  font-size: 100px;;
+}
+
+.emaillist {
+  font-size: 50px;
 }
